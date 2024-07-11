@@ -1,0 +1,217 @@
+/* *=============== Scrollbar ===============* */
+/* Scrollbar إخفاء الـ */
+::-webkit-scrollbar {
+   width: 0px;
+}
+
+/* Scrollbar لو حابب يكون عندك Scrollbar كود الـ */
+/*
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   box-shadow: inset 0 0 5px grey;
+}
+
+
+::-webkit-scrollbar-thumb {
+   background: #0c0c0c;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+   background: #070707;
+}
+*/
+/* *=============== Landing ===============* */
+.landing {
+   background-image: url(../images/land2.jpg);
+   height: 100vh;
+   background-size: cover;
+   background-position: 90% 30%;
+}
+.landing .text h1 {
+   font-size: 75px;
+}
+.landing .text p {
+   font-size: 20px;
+}
+.slideSection {
+   position: fixed;
+   top: 0;
+   left: -260px;
+   width: 370px;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, 0);
+   z-index: 9999;
+}
+/* *=============== Slide-bar ===============* */
+.slideSection .slide {
+   background-color: #111111;
+   height: 100%;
+   width: 100%;
+}
+.slideSection .slide li {
+   font-size: 25px;
+}
+.slideSection .slide li a {
+   text-decoration: none;
+   color: white;
+}
+.fa-bars {
+   font-size: 30px !important;
+}
+.open {
+   font-size: 28px;
+}
+.closee {
+   text-align: end;
+   font-size: 25px;
+}
+.icon {
+   cursor: pointer;
+}
+#clickBtn {
+   cursor: pointer;
+}
+.closeIcon,
+.slide li a,
+.clickSlide {
+   transition: 0.3s all;
+}
+.closeIcon:hover,
+.slide li a:hover {
+   color: #7e0000e0;
+   cursor: pointer;
+}
+
+/* *=============== Singer ===============* */
+.singer h3 {
+   background-color: #111111;
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   color: white;
+   padding: 10px;
+}
+.singer {
+   padding-top: 60px;
+}
+
+.singer .holder div p {
+   background-color: rgb(197, 197, 197);
+   color: #212529;
+   padding: 10px 20px;
+   display: none;
+}
+
+.singer .holder div .para1 {
+   display: block;
+}
+
+/* *=============== Duration ===============* */
+.duration {
+   margin-top: 60px;
+   background-image: url(../images/join11.jpg);
+   height: 35vh;
+   background-size: cover;
+   background-position: center;
+}
+
+@media (max-width: 480px) {
+   .duration {
+      height: auto;
+   }
+}
+.duration h4 {
+   font-size: 31px;
+   color: white;
+}
+/* *=============== Contact ===============* */
+.contact {
+   padding: 150px 0px 90px;
+}
+.contact h2 {
+   font-size: 35px;
+   font-weight: 700;
+   color: #444;
+}
+.contact h2 + p {
+   font-size: 16px;
+   font-weight: 300;
+   color: #777;
+}
+.contact .left-holder h3 {
+   font-size: 18px;
+   font-weight: 900;
+   color: #444;
+}
+.contact .left-holder h3 + p {
+   font-size: 16px;
+   font-weight: 400;
+   color: #777;
+   text-align: center;
+   line-height: 1.8;
+}
+
+.contact .left-holder .adress {
+   margin-top: 35px;
+}
+
+.contact .left-holder .adress span {
+   display: block;
+   text-align: center;
+   padding: 15px 0px;
+   color: #777;
+}
+.contact .left-holder .adress span svg {
+   color: #777777;
+   transition: 0.2s all;
+}
+.special {
+   color: #d62e33 !important;
+}
+.social ul li a svg {
+   color: #777777;
+   height: 17px;
+   width: 17px;
+   padding: 8px 10px;
+   margin-top: 3.5px;
+}
+
+.social ul {
+   gap: 15px;
+}
+.social ul li {
+   border: 1px solid #11111160;
+   padding: 0;
+   transition: 0.2s all;
+}
+.social ul li:hover {
+   background-color: #d62e33;
+   border-color: transparent;
+}
+.social ul li:hover .icona {
+   color: white;
+}
+.right-holder textarea {
+   height: 200px;
+   resize: none;
+}
+.lastP span {
+   color: #d62e33;
+   font-size: 21px;
+   font-weight: 400;
+}
+.right-holder button {
+   padding: 10px 20px;
+   background-color: #d62e33;
+   color: white;
+}
+.right-holder button:active {
+   outline: none;
+}
+.right-holder button:hover {
+   color: white;
+}
